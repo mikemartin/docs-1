@@ -78,7 +78,7 @@ Then, in Laravel Cloud, you can create a new bucket from the environment overvie
 
 You will then be prompted to select a filesystem disk for the bucket, it should match a disk in your `config/filesystems.php` config. 
 
-Once the bucket is created, you can upload existing assets using a tool like [Transmit](https://panic.com/transmit/), [Cyberduck](https://cyberduck.io/), or any similar app that supports S3-compatible filesystems.
+Once the bucket is created, you can upload existing assets using a tool like [Cyberduck](https://cyberduck.io/), or any similar app that supports Cloudflare R2 compatible filesystems.
 
 ## Deploying your application
 
